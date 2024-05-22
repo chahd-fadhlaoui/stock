@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="929.0" style="-fx-background-color: #6C5E69;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stock.viewControl.HomeControl">
+   <children>
+      <Pane layoutX="296.0" layoutY="13.0" prefHeight="375.0" prefWidth="622.0">
+         <children>
+            <Pane layoutX="28.0" layoutY="14.0" prefHeight="137.0" prefWidth="166.0">
+               <children>
+                  <Circle layoutX="76.0" layoutY="50.0" radius="34.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ffa850" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <Label layoutX="17.0" layoutY="92.0" prefHeight="21.0" prefWidth="132.0" text="gestion employees ">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="56.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/i5.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="137.0" prefWidth="166.0" style="-fx-background-radius: 10; -fx-background-color: lightblue;" />
+            <Circle layoutX="86.0" layoutY="60.0" radius="34.0" stroke="BLACK" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#ffa850" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Label layoutX="22.0" layoutY="103.0" prefHeight="23.0" prefWidth="150.0" text="gestion employés ">
+               <font>
+                  <Font name="Candara" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="66.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/i5.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="10.0" layoutY="174.0" mnemonicParsing="false" prefHeight="137.0" prefWidth="166.0" style="-fx-background-radius: 10; -fx-background-color: lightblue;" />
+            <Button layoutX="194.0" layoutY="174.0" mnemonicParsing="false" prefHeight="137.0" prefWidth="166.0" style="-fx-background-radius: 10; -fx-background-color: lightblue;" />
+            <Button layoutX="379.0" layoutY="174.0" mnemonicParsing="false" prefHeight="137.0" prefWidth="166.0" style="-fx-background-radius: 10; -fx-background-color: lightblue;" />
+            <Button layoutX="379.0" layoutY="11.0" mnemonicParsing="false" prefHeight="137.0" prefWidth="166.0" style="-fx-background-radius: 10; -fx-background-color: lightblue;" />
+            <Pane layoutX="17.0" layoutY="174.0" prefHeight="124.0" prefWidth="159.0">
+               <children>
+                  <Circle layoutX="76.0" layoutY="50.0" radius="34.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ffa850" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <Label layoutX="5.0" layoutY="91.0" prefHeight="25.0" prefWidth="150.0" text="se mettre à jour ">
+                     <font>
+                        <Font name="Candara" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="56.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/i3.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="204.0" layoutY="174.0" prefHeight="137.0" prefWidth="166.0">
+               <children>
+                  <Circle layoutX="76.0" layoutY="50.0" radius="34.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ffa850" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <Label layoutX="39.0" layoutY="92.0" prefHeight="21.0" prefWidth="88.0" text="shopping">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="56.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/i4.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="383.0" layoutY="174.0" prefHeight="124.0" prefWidth="166.0">
+               <children>
+                  <Circle layoutX="76.0" layoutY="50.0" radius="34.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ffa850" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <Label layoutX="65.0" layoutY="92.0" prefHeight="21.0" prefWidth="61.0" text="gift">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="56.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/i2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="387.0" layoutY="17.0" prefHeight="124.0" prefWidth="150.0">
+               <children>
+                  <Circle layoutX="76.0" layoutY="50.0" radius="34.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ffa850" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <Label layoutX="14.0" layoutY="84.0" prefHeight="21.0" prefWidth="132.0" text="gestion store">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="56.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/i1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button layoutX="194.0" layoutY="10.0" mnemonicParsing="false" prefHeight="137.0" prefWidth="166.0" style="-fx-background-color: lightblue; -fx-background-radius: 10;" />
+            <Pane layoutX="204.0" layoutY="11.0" prefHeight="124.0" prefWidth="150.0">
+               <children>
+                  <Circle layoutX="76.0" layoutY="50.0" radius="34.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ffa850" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+                  <Label layoutX="1.0" layoutY="84.0" prefHeight="30.0" prefWidth="150.0" text="gestion produits">
+                     <font>
+                        <Font name="Candara" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="56.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/i6.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="1.0" layoutY="2.0" prefHeight="472.0" prefWidth="256.0" style="-fx-background-color: #877683;">
+         <children>
+            <Pane layoutY="21.0" prefHeight="81.0" prefWidth="256.0" style="-fx-background-color: #FFAB56;">
+               <children>
+                  <Label layoutX="71.0" layoutY="16.0" prefHeight="17.0" prefWidth="115.0" text="Home" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <VBox layoutX="8.0" layoutY="105.0" prefHeight="353.0" prefWidth="240.0">
+               <children>
+                  <Button fx:id="btnP" graphicTextGap="30.0" mnemonicParsing="false" onAction="#openProduct" prefHeight="75.0" prefWidth="266.0" style="-fx-background-color: #877683;" text="produits" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria Italic" size="24.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/prd.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnS" graphicTextGap="30.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#openService" prefHeight="75.0" prefWidth="266.0" style="-fx-background-color: #877683;" text="services" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria Italic" size="24.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/sr.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnE" graphicTextGap="30.0" layoutX="10.0" layoutY="85.0" mnemonicParsing="false" onAction="#openEmploye" prefHeight="75.0" prefWidth="266.0" style="-fx-background-color: #877683;" text="employés" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria Italic" size="24.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/em.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnSt" graphicTextGap="30.0" layoutX="10.0" layoutY="160.0" mnemonicParsing="false" onAction="#openStatistic" prefHeight="75.0" prefWidth="266.0" style="-fx-background-color: #877683;" text="statistiques" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria Italic" size="24.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/st.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
